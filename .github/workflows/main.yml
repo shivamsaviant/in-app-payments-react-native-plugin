@@ -22,6 +22,6 @@ jobs:
           npm install
       - name: Build Android Release
         run: |
-          cd react-native-in-app-payments-quickstart && yarn
+          cd react-native-in-app-payments-quickstart && npm install
           cd android && chmod +x ./gradlew
           ./gradlew assembleRelease
