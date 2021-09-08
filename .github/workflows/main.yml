@@ -21,7 +21,7 @@ jobs:
         yarn install
     - name: Run test
       run: |
-        yarn test-ci
+        yarn test
     - name: Cache Gradle Wrapper
       uses: actions/cache@v2
       with:
