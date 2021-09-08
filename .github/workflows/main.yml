@@ -22,5 +22,6 @@ jobs:
           npm install
       - name: Build Android Release
         run: |
+          chmod +x ./gradlew
           cd android && ./gradlew assembleRelease
 
